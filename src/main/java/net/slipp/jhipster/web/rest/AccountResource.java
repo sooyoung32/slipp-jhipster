@@ -50,6 +50,11 @@ public class AccountResource {
         this.mailService = mailService;
     }
 
+    @GetMapping("test")
+    public String test(){
+        return "성공!!";
+    }
+
     /**
      * POST  /register : register the user.
      *
