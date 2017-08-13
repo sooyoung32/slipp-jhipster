@@ -52,7 +52,7 @@ public class AccountResource {
 
     @GetMapping("test")
     public String test(){
-        return "성공!!할거야!";
+        return "슬랙 노티!!성공!!할거야!";
     }
 
     /**
